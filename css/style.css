@@ -268,10 +268,6 @@ body.loaded .hero-sub,body.loaded .hero-copy{opacity:1;transform:none}
 .d-card h3{font-family:var(--serif-en);font-size:15px;letter-spacing:.22em;color:var(--gold);font-weight:500}
 .d-card .jp-label{display:block;font-size:13px;letter-spacing:.25em;font-weight:600;margin:4px 0 14px}
 .d-card p{font-size:12.5px;color:var(--ink-soft);text-align:justify}
-.d-card .more{
-  display:inline-block;margin-top:20px;font-family:var(--sans);font-size:10px;
-  letter-spacing:.3em;color:var(--gold);border-bottom:1px solid var(--gold);padding-bottom:3px;
-}
 .digest-biz{background:linear-gradient(180deg,var(--paper),var(--ivory))}
 
 /* トップ：店舗バナー */
