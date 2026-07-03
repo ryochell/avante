@@ -312,8 +312,8 @@ body.loaded .hero-sub,body.loaded .hero-copy{opacity:1;transform:none}
   display:grid;grid-template-columns:auto 1fr;gap:70px;align-items:center;max-width:920px;margin:0 auto;
 }
 .phi-vertical{
-  writing-mode:vertical-rl;font-size:clamp(20px,2.6vw,26px);letter-spacing:.42em;
-  line-height:2.6;color:var(--ink);height:360px;
+  writing-mode:vertical-rl;font-size:clamp(18px,2.2vw,24px);letter-spacing:.42em;
+  line-height:2.6;color:var(--ink);height:auto;align-self:stretch;
   border-left:1px solid var(--line);padding-left:34px;
 }
 .phi-text p{margin-bottom:1.6em;font-size:15px;color:var(--ink-soft);text-align:justify}
