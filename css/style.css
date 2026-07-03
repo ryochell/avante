@@ -545,20 +545,6 @@ body.loaded .hero-vertical{opacity:1}
 .tel-line .tel{font-family:var(--serif-en2);font-size:26px;letter-spacing:.1em;color:var(--ink)}
 .tel-line .hours{font-size:11px;color:var(--ink-soft);letter-spacing:.15em}
 
-/* ---------- 下層：次ページ誘導 ---------- */
-.next-nav{
-  display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--line);
-}
-.next-nav a{
-  padding:44px 30px;text-align:center;transition:background .35s;
-  border-right:1px solid var(--line);
-}
-.next-nav a:last-child{border-right:none}
-.next-nav a:hover{background:rgba(179,147,78,.07)}
-.next-nav .dir{font-family:var(--sans);font-size:9px;letter-spacing:.35em;color:var(--ink-soft);display:block}
-.next-nav .en{font-family:var(--serif-en);font-size:17px;letter-spacing:.3em;color:var(--gold);display:block;margin-top:8px}
-.next-nav .jp{font-size:11px;letter-spacing:.3em;color:var(--ink-soft);display:block;margin-top:4px}
-
 /* ---------- Footer ---------- */
 footer.site-footer{
   background:var(--ink);color:rgba(232,220,192,.7);
@@ -596,9 +582,6 @@ footer.site-footer .copy{margin-top:30px;font-family:var(--sans);font-size:9px;l
   .message-photo{width:220px;margin:0 auto}
   .cta-band{grid-template-columns:1fr}
   .cta-band a{padding:56px 24px}
-  .next-nav{grid-template-columns:1fr}
-  .next-nav a{border-right:none;border-bottom:1px solid var(--line)}
-  .next-nav a:last-child{border-bottom:none}
 }
 @media(max-width:520px){
   .news-item{grid-template-columns:1fr;gap:4px;padding:18px 4px}
