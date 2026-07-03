@@ -305,10 +305,10 @@ body.loaded .hero-vertical{opacity:1}
 }
 .cta-band .en{font-family:var(--serif-en);letter-spacing:.35em;font-size:22px;font-weight:500;display:block}
 .cta-band .jp{display:block;font-size:12px;letter-spacing:.35em;margin-top:10px}
-.cta-recruit{background:var(--ink)}
+.cta-recruit{background:#4a3226}
 .cta-recruit .en{color:var(--gold-light)}
 .cta-recruit .jp{color:rgba(232,220,192,.7)}
-.cta-recruit:hover{background:#3a332a}
+.cta-recruit:hover{background:#5c4030}
 .cta-contact{background:var(--gold)}
 .cta-contact .en{color:#fff}
 .cta-contact .jp{color:rgba(255,255,255,.85)}
