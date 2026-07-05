@@ -304,8 +304,9 @@ body.loaded .hero-sub,body.loaded .hero-copy{opacity:1;transform:none}
 .shop-banner{
   position:relative;min-height:280px;overflow:hidden;
   display:flex;align-items:center;justify-content:center;flex-direction:column;gap:14px;
-  text-align:center;
+  text-align:center;transition:opacity .4s ease,transform .4s ease;
 }
+.shop-banner:hover{opacity:.75;transform:scale(1.03)}
 .shop-banner .s-mark{width:74px;height:auto;transition:transform .6s ease}
 .shop-banner:hover .s-mark{transform:scale(1.1)}
 .shop-banner .s-name{font-family:var(--serif-en);letter-spacing:.3em;font-size:18px}
@@ -475,7 +476,9 @@ body.loaded .hero-sub,body.loaded .hero-copy{opacity:1;transform:none}
 .shop-visual{
   position:relative;min-height:340px;
   display:flex;align-items:center;justify-content:center;flex-direction:column;gap:18px;
+  transition:opacity .4s ease,transform .4s ease;
 }
+.shop-visual:hover{opacity:.75;transform:scale(1.03)}
 .shop-visual .s-mark{width:100px;height:auto}
 .shop-visual .s-name{font-family:var(--serif-en);letter-spacing:.35em;font-size:20px}
 .shop-visual .s-tag{font-family:var(--sans);font-size:9px;letter-spacing:.45em}
